@@ -38,7 +38,7 @@ test("Is there an 'a' and 'b' property on child?", function () {
 
 test("If 'b' was removed, whats b value?", function () {
   delete child.b;
-  equal(null, child.b, 'what is \'b\' value now?');
+  equal(3, child.b, 'what is \'b\' value now?');
 });
 
 
